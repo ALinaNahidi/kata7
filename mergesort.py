@@ -40,7 +40,7 @@ def merge_sort4(m):
     first = merge_sort4(first)
     second = merge_sort4(second)
     third = merge_sort4(third)
-    last = merge_sort4(last)
+    fourth = merge_sort4(last)
 
     # Merge and return
     return list(merge(first,second, third, fourth))
